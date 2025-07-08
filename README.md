@@ -13,3 +13,33 @@ O objetivo deste projeto é analisar os dados históricos de viagens da Cyclisti
 
 ---
 
+## ⚙️ Abordagem / Etapas
+
+### 1. Perguntar
+
+Três perguntas fundamentais orientarão o desenvolvimento do novo programa de marketing da Cyclistic:
+
+> 1. **Como os membros anuais e os ciclistas casuais utilizam as bicicletas da Cyclistic de forma diferente?**
+> 2. **Por que os ciclistas casuais considerariam adquirir uma assinatura anual da Cyclistic?**
+> 3. **Como a Cyclistic pode usar mídias digitais para incentivar ciclistas casuais a se tornarem membros anuais?**
+
+Essas perguntas são o ponto de partida da análise e irão guiar todo o processo investigativo nas etapas seguintes.
+
+
+### 2. Preparar
+
+Nesta etapa, foram definidos os recursos e ferramentas necessários para conduzir a análise, além da origem e licença dos dados utilizados.
+
+Os dados históricos de viagens foram obtidos por meio do portal oficial da Divvy, disponível em:  
+🔗 [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
+O uso dos dados é permitido conforme os termos da licença disponibilizada pela Divvy:  
+🔗 [Data License Agreement](https://divvybikes.com/data-license-agreement)
+
+**Ferramentas:** <br>
+- Limpeza e manipulação de dados — Python (Pandas, NumPy)  
+- Visualização de dados — Matplotlib, Seaborn  
+- Ambiente de desenvolvimento — Jupyter Notebook
+
+
+### 3. Processar
