@@ -19,12 +19,20 @@ O objetivo deste projeto é analisar os dados históricos de viagens da Cyclisti
 
 Três perguntas fundamentais orientarão o desenvolvimento do novo programa de marketing da Cyclistic:
 
-> 1. **Como os membros anuais e os ciclistas casuais utilizam as bicicletas da Cyclistic de forma diferente?**
-> 2. **Por que os ciclistas casuais considerariam adquirir uma assinatura anual da Cyclistic?**
-> 3. **Como a Cyclistic pode usar mídias digitais para incentivar ciclistas casuais a se tornarem membros anuais?**
+> 1. *Como os membros anuais e os ciclistas casuais utilizam as bicicletas da Cyclistic de forma diferente?*
+> 2. *Por que os ciclistas casuais considerariam adquirir uma assinatura anual da Cyclistic?*
+> 3. *Como a Cyclistic pode usar mídias digitais para incentivar ciclistas casuais a se tornarem membros anuais?*
 
 Essas perguntas são o ponto de partida da análise e irão guiar todo o processo investigativo nas etapas seguintes.
 
+#### 1.1 Hipóteses iniciais de análise
+
+Antes de iniciar a análise, foram elaboradas algumas hipóteses que refletem possíveis padrões de comportamento entre usuários casuais e membros:
+
+> 1. *Usuários casuais utilizam mais as bicicletas aos finais de semana, especialmente sexta, sábado e domingo; enquanto membros usam de forma mais distribuída ao longo da semana*.
+> 2. *O uso das bicicletas é maior durante as estações mais quentes, como o verão (junho a setembro) e o outono (setembro a novembro)*.
+> 3. *Usuários casuais tendem a utilizar as bicicletas próximas a áreas de lazer, como parques, enquanto membros utilizam para deslocamentos urbanos mais distribuídos pela cidade*.
+> 4. *Feriados aumentam o uso das bicicletas por usuários casuais, indicando um comportamento mais voltado ao lazer e ao turismo*.
 
 ### 2. Preparar
 
