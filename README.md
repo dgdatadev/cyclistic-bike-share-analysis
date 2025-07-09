@@ -1,3 +1,5 @@
+![Capa do projeto](03_images/capa_cyclistic.png)
+
 # 🚴‍♂️ Cyclistic Bike-Share | Estudo de Comportamento de Usuários
 
 
