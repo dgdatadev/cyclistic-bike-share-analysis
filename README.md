@@ -1,4 +1,4 @@
-![Capa do projeto](03_images/capa_cyclistic.png)
+![Capa do projeto](images/capa_cyclistic.png)
 
 # 🚴‍♂️ Cyclistic Bike-Share | Estudo de Comportamento de Usuários
 
@@ -41,10 +41,11 @@ Antes de iniciar a análise, foram elaboradas algumas hipóteses que refletem po
 Nesta etapa, foram definidos os recursos e ferramentas necessários para conduzir a análise, além da origem e licença dos dados utilizados.
 
 Os dados históricos de viagens foram obtidos por meio do portal oficial da Divvy, disponível em:  
-🔗 [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
+🔗 <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank">divvy-tripdata</a>
 
 O uso dos dados é permitido conforme os termos da licença disponibilizada pela Divvy:  
-🔗 [Data License Agreement](https://divvybikes.com/data-license-agreement)
+🔗 <a href="https://divvybikes.com/data-license-agreement" target="_blank">Data License Agreement</a>
+
 
 **Ferramentas:** <br>
 - Limpeza e manipulação de dados — Python (Pandas, NumPy)  
@@ -56,10 +57,10 @@ O uso dos dados é permitido conforme os termos da licença disponibilizada pela
 
 Para esta análise, utilizamos as bases de dados referentes ao ano de 2024. O processamento foi dividido nas seguintes etapas:
 
-1) [Combinação de Dados (Data Combining)]()
-2) [Exploração de Dados (Data Exploration)]()
-3) [Limpeza de Dados (Data Cleaning)]()
-4) [Análise de Dados (Data Analysis)]()
+1) [Combinação de Dados (Data Combination)](notebooks/01-Data-Combination.ipynb)
+2) [Exploração de Dados (Data Exploration)](notebooks/02-Data-Exploration.ipynb)
+3) [Limpeza de Dados (Data Cleaning)](notebooks/01-Data-Combination.ipynb)
+4) [Análise de Dados (Data Analysis)](notebooks/01-Data-Combination.ipynb)
 
 #### Combinação de Dados
 As tabelas de janeiro de 2024 a dezembro de 2024 foram empilhadas em uma única tabela, totalizando 5.860.568 linhas.
