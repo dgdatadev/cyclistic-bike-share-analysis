@@ -53,3 +53,38 @@ O uso dos dados é permitido conforme os termos da licença disponibilizada pela
 
 
 ### 3. Processar
+
+Para esta análise, utilizamos as bases de dados referentes ao ano de 2024. O processamento foi dividido nas seguintes etapas:
+
+1) [Combinação de Dados (Data Combining)]()
+2) [Exploração de Dados (Data Exploration)]()
+3) [Limpeza de Dados (Data Cleaning)]()
+4) [Análise de Dados (Data Analysis)]()
+
+#### Combinação de dados
+As tabelas de janeiro de 2024 a dezembro de 2024 foram empilhadas em uma única tabela, totalizando 5.860.568 linhas.
+
+#### Exploração de dados
+
+
+| **Nº** | **Coluna**            | **Descrição**                                                                 |
+|-------:|-----------------------|-------------------------------------------------------------------------------|
+| 1      | ride_id             | Identificador único de cada viagem                                          |
+| 2      | rideable_type       | Tipo de bicicleta utilizada na viagem   |
+| 3      | started_at          | Data e hora de início da viagem                                             |
+| 4      | ended_a`            | Data e hora de término da viagem                                            |
+| 5      | start_station_name  | Nome da estação onde a viagem foi iniciada                                  |
+| 6      | start_station_id    | Identificador da estação de início da viagem                                |
+| 7      | end_station_name    | Nome da estação onde a viagem foi finalizada                                |
+| 8      | end_station_id      | Identificador da estação de término da viagem                               |
+| 9      | start_lat           | Latitude do ponto de partida da viagem                                      |
+| 10     | start_lng           | Longitude do ponto de partida da viagem                                     |
+| 11     | end_lat             | Latitude do ponto de chegada da viagem                                      |
+| 12     | end_lng             | Longitude do ponto de chegada da viagem                                     |
+| 13     | member_casual       | Categoria do usuário        |
+
+
+
+#### Limpeza de dados
+#### Análise de dados
+
