@@ -27,7 +27,7 @@ Três perguntas fundamentais orientarão o desenvolvimento do novo programa de m
 
 Essas perguntas são o ponto de partida da análise e irão guiar todo o processo investigativo nas etapas seguintes.
 
-#### 1.1 Hipóteses iniciais de análise
+#### Hipóteses iniciais
 
 Antes de iniciar a análise, foram elaboradas algumas hipóteses que refletem possíveis padrões de comportamento entre usuários casuais e membros:
 
@@ -61,30 +61,31 @@ Para esta análise, utilizamos as bases de dados referentes ao ano de 2024. O pr
 3) [Limpeza de Dados (Data Cleaning)]()
 4) [Análise de Dados (Data Analysis)]()
 
-#### Combinação de dados
+#### Combinação de Dados
 As tabelas de janeiro de 2024 a dezembro de 2024 foram empilhadas em uma única tabela, totalizando 5.860.568 linhas.
 
-#### Exploração de dados
+#### Exploração de Dados
 
+Nesta etapa, o foco foi entender melhor como os dados estão distribuídos e identificar possíveis padrões. Foram analisados os valores únicos, presença de nulos, outliers e a distribuição geral das variáveis.
 
-| **Nº** | **Coluna**            | **Descrição**                                                                 |
-|-------:|-----------------------|-------------------------------------------------------------------------------|
-| 1      | ride_id             | Identificador único de cada viagem                                          |
-| 2      | rideable_type       | Tipo de bicicleta utilizada na viagem   |
-| 3      | started_at          | Data e hora de início da viagem                                             |
-| 4      | ended_a`            | Data e hora de término da viagem                                            |
-| 5      | start_station_name  | Nome da estação onde a viagem foi iniciada                                  |
-| 6      | start_station_id    | Identificador da estação de início da viagem                                |
-| 7      | end_station_name    | Nome da estação onde a viagem foi finalizada                                |
-| 8      | end_station_id      | Identificador da estação de término da viagem                               |
-| 9      | start_lat           | Latitude do ponto de partida da viagem                                      |
-| 10     | start_lng           | Longitude do ponto de partida da viagem                                     |
-| 11     | end_lat             | Latitude do ponto de chegada da viagem                                      |
-| 12     | end_lng             | Longitude do ponto de chegada da viagem                                     |
-| 13     | member_casual       | Categoria do usuário        |
+| **Nº** | **Coluna**         | **Descrição**                                 |
+|--------|--------------------|-----------------------------------------------|
+| 1      | ride_id            | Identificador único de cada viagem            |
+| 2      | rideable_type      | Tipo de bicicleta utilizada na viagem         |
+| 3      | started_at         | Data e hora de início da viagem               |
+| 4      | ended_at           | Data e hora de término da viagem              |
+| 5      | start_station_name | Nome da estação onde a viagem foi iniciada    |
+| 6      | start_station_id   | Identificador da estação de início da viagem  |
+| 7      | end_station_name   | Nome da estação onde a viagem foi finalizada  |
+| 8      | end_station_id     | Identificador da estação de término da viagem |
+| 9      | start_lat          | Latitude do ponto de partida da viagem        |
+| 10     | start_lng          | Longitude do ponto de partida da viagem       |
+| 11     | end_lat            | Latitude do ponto de chegada da viagem        |
+| 12     | end_lng            | Longitude do ponto de chegada da viagem       |
+| 13     | member_casual      | Categoria do usuário                          |
 
+Essa análise inicial ajudou a ter uma visão mais clara da base e direcionar os próximos passos do projeto.
 
-
-#### Limpeza de dados
-#### Análise de dados
+#### Limpeza de Dados
+#### Análise de Dados
 
