@@ -29,7 +29,7 @@ Essas perguntas são o ponto de partida da análise e irão guiar todo o process
 
 #### Hipóteses iniciais
 
-Antes de iniciar a análise, foram elaboradas algumas hipóteses que refletem possíveis padrões de comportamento entre usuários casuais e membros:
+Antes de iniciar a análise, elaborei algumas hipóteses que refletem possíveis padrões de comportamento entre usuários casuais e membros.
 
 > 1. *Usuários casuais utilizam mais as bicicletas aos finais de semana, especialmente sexta, sábado e domingo; enquanto membros usam de forma mais distribuída ao longo da semana*.
 > 2. *O uso das bicicletas é maior durante as estações mais quentes, como o verão (junho a setembro) e o outono (setembro a novembro)*.
@@ -38,7 +38,7 @@ Antes de iniciar a análise, foram elaboradas algumas hipóteses que refletem po
 
 ### 2. Preparar
 
-Nesta etapa, foram definidos os recursos e ferramentas necessários para conduzir a análise, além da origem e licença dos dados utilizados.
+Nesta etapa, defini os recursos e ferramentas necessários para conduzir a análise, além de identificar a origem e a licença dos dados utilizados.
 
 Os dados históricos de viagens foram obtidos por meio do portal oficial da Divvy, disponível em:  
 🔗 <a href="https://divvy-tripdata.s3.amazonaws.com/index.html" target="_blank">divvy-tripdata</a>
@@ -48,18 +48,18 @@ O uso dos dados é permitido conforme os termos da licença disponibilizada pela
 
 
 **Ferramentas:** <br>
-- Limpeza e manipulação de dados — Python (Pandas, NumPy)  
+- Limpeza e manipulação de dados — Python (Pandas, Numpy)  
 - Visualização de dados — Matplotlib, Seaborn  
 - Ambiente de desenvolvimento — Jupyter Notebook
 
 
 ### 3. Processar
 
-Para esta análise, utilizamos as bases de dados referentes ao ano de 2024. O processamento foi dividido nas seguintes etapas:
+Para esta análise, utilizei as bases de dados referentes ao ano de 2024. Dividi o processamento nas seguintes etapas:
 
 1) [Combinação de Dados (Data Combination)](notebooks/01-Data-Combination.ipynb)
 2) [Exploração de Dados (Data Exploration)](notebooks/02-Data-Exploration.ipynb)
-3) [Limpeza de Dados (Data Cleaning)](notebooks/01-Data-Combination.ipynb)
+3) [Limpeza de Dados (Data Cleaning)](notebooks/03-Data-Cleaning.ipynb)
 4) [Análise de Dados (Data Analysis)](notebooks/01-Data-Combination.ipynb)
 
 #### Combinação de Dados
@@ -88,5 +88,21 @@ Nesta etapa, o foco foi entender melhor como os dados estão distribuídos e ide
 Essa análise inicial ajudou a ter uma visão mais clara da base e direcionar os próximos passos do projeto.
 
 #### Limpeza de Dados
+
+Nesta etapa, fiz alguns ajustes importantes para preparar os dados para a análise:
+
+- Removi registros duplicados na coluna `ride_id`
+- Excluí linhas com valores nulos
+- Converti as colunas `started_at` e `ended_at` para o formato `datetime` e arredondei os valores para segundos (`HH:MM:SS`)
+- Eliminei linhas onde o horário de início era maior ou igual ao horário de término
+- Criei a coluna `ride_length` com a duração da viagem (término - início)
+- Criei a coluna `day_of_week` para identificar o dia da semana da viagem (1 = domingo, 7 = sábado)
+- Criei a coluna `month` para identificar o mês da viagem
+- Criei a coluna `is_holiday` para verificar se o dia da viagem era feriado ou não
+
+Após esses passos, a base final ficou com **4.207.936 linhas**, ou seja, **removi 1.652.632 linhas** com dados inválidos ou incompletos para análise.
+
+### 4. Analisar
+
 #### Análise de Dados
 
