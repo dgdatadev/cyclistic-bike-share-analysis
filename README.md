@@ -99,6 +99,7 @@ Nesta etapa, fiz alguns ajustes importantes para preparar os dados para a análi
 - Criei a coluna `day_of_week` para identificar o dia da semana da viagem (1 = domingo, 7 = sábado)
 - Criei a coluna `month` para identificar o mês da viagem
 - Criei a coluna `is_holiday` para verificar se o dia da viagem era feriado ou não
+- Criei a coluna `seasons` para identificar a estação do ano correspondente a cada mês
 
 Após esses passos, a base final ficou com **4.207.936 linhas**, ou seja, **removi 1.652.632 linhas** com dados inválidos ou incompletos para análise.
 
@@ -106,7 +107,7 @@ Após esses passos, a base final ficou com **4.207.936 linhas**, ou seja, **remo
 
 #### Análise de Dados
 
-Nesta etapa, o objetivo é **testar as hipóteses levantadas anteriormente** e verificar, por meio de análises estatísticas e gráficas, se os padrões de comportamento entre usuários casuais e membros anuais realmente se confirmam nos dados.
+Nesta etapa, o objetivo é **testar as hipóteses** e verificar, por meio de análises estatísticas e gráficas, se os padrões de comportamento entre usuários casuais e membros anuais realmente se confirmam nos dados.
 
 #### Teste de Hipóteses
 
@@ -114,25 +115,25 @@ Para cada hipótese, foram aplicadas análises exploratórias e testes estatíst
 
 > 1. *Usuários casuais utilizam mais as bicicletas aos finais de semana, especialmente sexta, sábado e domingo; enquanto membros usam de forma mais distribuída ao longo da semana*.
 
-![Gráfico](images/2.png)
+![Gráfico](images/hipotese_1.png)
 
 - Usuários casuais apresentam maior consumo entre quinta-feira e domingo, com menor utilização de segunda a quarta-feira. Já os membros mantêm um padrão mais equilibrado ao longo da semana, mas com redução nas sextas e sábados.
 
 > 2. *O uso das bicicletas é maior durante as estações mais quentes, como o verão (junho a setembro) e o outono (setembro a novembro)*.
 
-![Gráfico](images/3.png)
+![Gráfico](images/hipotese_2.png)
 
 - Tanto usuários casuais quanto membros utilizam mais as bicicletas nas estações mais quentes, apresentando uma queda significativa no inverno.
 
 > 3. *Usuários casuais tendem a utilizar as bicicletas próximas a áreas de lazer, como parques, enquanto membros utilizam para deslocamentos urbanos mais distribuídos pela cidade*.
 
-![Gráfico](images/)
+![Gráfico](images/hipotese_3.png)
 
-teste
+- teste
 
 > 4. *Feriados aumentam o uso das bicicletas por usuários, indicando um comportamento mais voltado ao lazer e ao turismo*.
 
-![Capa do projeto](images/.png)
+![Capa do projeto](images/hipotese_4.png)
 
-Teste
+- A análise descritiva mostrou que, em 11 dos 19 feriados de 2024, os usuários casuais apresentaram **mais viagens** do que nos mesmos dias da semana sem feriado, enquanto em 8 feriados houve **menos viagens**. Esses resultados indicam que, de forma geral, os feriados tendem a estimular o uso das bicicletas por usuários casuais.
 
