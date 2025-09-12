@@ -33,7 +33,7 @@ Antes de iniciar a análise, elaborei algumas hipóteses que refletem possíveis
 > 1. *Usuários casuais utilizam mais as bicicletas aos finais de semana, especialmente sexta, sábado e domingo; enquanto membros usam de forma mais distribuída ao longo da semana*.
 > 2. *O uso das bicicletas é maior durante as estações mais quentes, como o verão (junho a setembro) e o outono (setembro a novembro)*.
 > 3. *Usuários casuais tendem a utilizar as bicicletas próximas a áreas de lazer, como parques, enquanto membros utilizam para deslocamentos urbanos mais distribuídos pela cidade*.
-> 4. *Feriados aumentam o uso das bicicletas por usuários, indicando um comportamento mais voltado ao lazer e ao turismo*.
+> 4. *Feriados aumentam o uso das bicicletas por usuários casuais, indicando um comportamento mais voltado ao lazer e ao turismo*.
 
 
 ### 2. Preparar
@@ -135,7 +135,7 @@ Para cada hipótese, foram aplicadas análises exploratórias e testes estatíst
 
 - Os usuários casuais concentram suas viagens em pontos turísticos e áreas de lazer, como parques e regiões centrais da cidade. Ao mesmo tempo, é possível observar que as viagens também estão distribuídas por outras regiões de Chicago, indicando que o uso não se limita apenas aos locais de maior interesse turístico.
 
-> 4. *Feriados aumentam o uso das bicicletas por usuários, indicando um comportamento mais voltado ao lazer e ao turismo*.✅
+> 4. *Feriados aumentam o uso das bicicletas por usuários casuais, indicando um comportamento mais voltado ao lazer e ao turismo*.✅
 
 ![Capa do projeto](images/hipotese_4.png)
 
